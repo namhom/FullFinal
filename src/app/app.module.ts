@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { SidenavComponent } from './component/sidenav/sidenav.component';
+import { SidenavComponent } from './component/student/sidenav/sidenav.component';
 import { NbThemeModule } from '@nebular/theme';
 import { MatSliderModule } from '@angular/material/slider';
 import {MatCardModule} from '@angular/material/card';
@@ -20,6 +20,14 @@ import { DeleteSubComponent } from './component/student/delete-sub/delete-sub.co
 import { TableSubComponent } from './component/student/table-sub/table-sub.component';
 import { ResultSubComponent } from './component/student/result-sub/result-sub.component';
 import { LoginComponent } from './component/login/login.component';
+import { SubjectsTaughtComponent } from './component/teacher/subjects-taught/subjects-taught.component';
+import { StudentListComponent } from './component/teacher/student-list/student-list.component';
+import { TsidenavComponent } from './component/teacher/tsidenav/tsidenav.component';
+import { LsidenavComponent } from './component/leader/lsidenav/lsidenav.component';
+import { LstudentListComponent } from './component/leader/lstudent-list/lstudent-list.component';
+import { LsubjectsTaughtComponent } from './component/leader/lsubjects-taught/lsubjects-taught.component';
+import { LdataSubjectComponent } from './component/leader/ldata-subject/ldata-subject.component';
+
 
 @NgModule({
   declarations: [
@@ -32,6 +40,13 @@ import { LoginComponent } from './component/login/login.component';
     TableSubComponent,
     ResultSubComponent,
     LoginComponent,
+    SubjectsTaughtComponent,
+    StudentListComponent,
+    TsidenavComponent,
+    LsidenavComponent,
+    LstudentListComponent,
+    LsubjectsTaughtComponent,
+    LdataSubjectComponent
   ],
   imports: [
     BrowserModule,

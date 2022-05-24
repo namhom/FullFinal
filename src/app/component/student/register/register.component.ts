@@ -11,5 +11,7 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  fakeArray = new Array(12);
+
 
 }
