@@ -8,7 +8,6 @@ import { DeleteSubComponent } from './component/student/delete-sub/delete-sub.co
 
 import { RegisterComponent } from './component/student/register/register.component';
 import { ResultSubComponent } from './component/student/result-sub/result-sub.component';
-import { StudentComponent } from './component/student/student/student.component';
 import { TableSubComponent } from './component/student/table-sub/table-sub.component';
 
 
@@ -20,8 +19,6 @@ const routes: Routes = [
   {path : 'deleteSub', component : DeleteSubComponent},
   {path : 'resultSub', component : ResultSubComponent},
   {path : 'tableSub', component : TableSubComponent},
-  {path : 'student', component : StudentComponent},
-
 ];
 
 @NgModule({

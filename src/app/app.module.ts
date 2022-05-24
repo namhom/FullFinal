@@ -20,7 +20,6 @@ import { DeleteSubComponent } from './component/student/delete-sub/delete-sub.co
 import { TableSubComponent } from './component/student/table-sub/table-sub.component';
 import { ResultSubComponent } from './component/student/result-sub/result-sub.component';
 import { LoginComponent } from './component/login/login.component';
-import { StudentComponent } from './component/student/student/student.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +32,6 @@ import { StudentComponent } from './component/student/student/student.component'
     TableSubComponent,
     ResultSubComponent,
     LoginComponent,
-    StudentComponent
   ],
   imports: [
     BrowserModule,
